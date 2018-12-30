@@ -1,0 +1,30 @@
+# Install django version 2.1.3
+pip install django==2.1.3
+
+# Create wordcount project
+django-admin startproject wordcount
+
+# Start project 
+python manage.py runserver 
+
+
+#Installing Virutalenv
+pip3 install virtualenv
+#Create virtualenv
+virtualenv my_virtual_env
+#To activate virtualenv
+source my_virtual_env/bin/activate
+#To deactivate virtualenv while in virtualenv
+deactivate
+
+#creating a blog app in project
+python manage.py startapp blog
+
+
+#Making migrations
+python manage.py makemigrations
+#Running migrations
+python manage.py migrate
+
+#Digital Ocean Help
+www.zappycode.com/djangoguide
